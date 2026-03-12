@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class RavenciPluginUpdater {
 
-	const API_BASE_URL = 'https://YOUR_PROJECT.supabase.co/functions/v1';
+	const API_BASE_URL = 'https://builder.ravenci.solutions/api';
 
 	private $plugin_file;
 	private $plugin_slug;
@@ -126,7 +126,7 @@ class RavenciPluginUpdater {
 				'plugin_slug' => $this->plugin_slug,
 				'version'     => $this->version,
 			],
-			self::API_BASE_URL . '/updates-check'
+			self::API_BASE_URL . '/updates/check'
 		);
 
 		$response = wp_remote_get(

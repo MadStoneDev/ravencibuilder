@@ -5,7 +5,7 @@ namespace ZionBuilder\Library\Sources;
 use ZionBuilder\Plugin;
 
 class ZionSource extends BaseSource {
-	const SOURCE_URL = 'https://YOUR_PROJECT.supabase.co/functions/v1/library';
+	const SOURCE_URL = 'https://builder.ravenci.solutions/api/library';
 
 	/**
 	 * True if you want to use the browser cache to cache the template lis
