@@ -1,9 +1,8 @@
 {
-  "name": "zionbuilder",
+  "name": "ravencibuilder",
   "author": {
-    "name": "zionbuilder.io",
-    "email": "hello@zionbuilder.io",
-    "url": "https://zionbuilder.io"
+    "name": "RavenciBuilder",
+    "url": "https://ravencibuilder.com"
   },
   "version": "2.4.1",
   "private": true,

@@ -15,8 +15,8 @@ module.exports = {
 	l10n: {
 		locations: ['zionbuilder.php', 'includes'],
 		domain: 'zionbuilder',
-		package: 'Zionbuilder',
-		bugReport: 'https://feedback.zionbuilder.io',
-		team: 'ZionBuilder <hello@zionbuilder.io>',
+		package: 'RavenciBuilder',
+		bugReport: 'https://github.com/ravencibuilder/ravencibuilder/issues',
+		team: 'RavenciBuilder <hello@ravencibuilder.com>',
 	},
 };

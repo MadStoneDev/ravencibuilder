@@ -1,22 +1,22 @@
-=== WordPress Page Builder – Zion Builder ===
-Contributors: zionbuilder
+=== RavenciBuilder – WordPress Page Builder ===
+Contributors: ravencibuilder
 Tags: page builder, editor, visual editor, drag and drop, website builder, front-end builder
 Requires at least: 5.0.0
-Tested up to: 6.1.1
+Tested up to: 6.7
 Stable tag: 3.6.5
-Requires PHP: 5.6.20
+Requires PHP: 7.0.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Building websites just got easier! The latest WordPress page builder plugin on the market,Zion Builder is a visual editor with powerful design features to help you build interactive pages and posts in WordPress.
+A powerful WordPress page builder with an intuitive live editor and powerful design features. Originally forked from ZionBuilder by the Hogash team.
 
 == Description ==
 
 https://www.youtube.com/watch?v=oVsxuHh-DzU
 
-Built and designed by [Hogash team](https://hogash.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), the creator of the famous WordPress theme [Kallyas](https://kallyas.net/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), this plugin is the fastest page builder on the market. The user-friendly tools included in Zion Page Builder make the building process for WordPress websites easier than ever before. Read more on [Zion Builder](https://zionbuilder.io/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+Built and designed by [Hogash team](https://hogash.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), the creator of the famous WordPress theme [Kallyas](https://kallyas.net/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), this plugin is the fastest page builder on the market. The user-friendly tools included in Zion Page Builder make the building process for WordPress websites easier than ever before. Read more on [Zion Builder](https://ravencibuilder.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
 
-Zion Builder in action - [TRY IT NOW](https://demo.zionbuilder.io/?enable-zion-builder&utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
+Zion Builder in action - [TRY IT NOW](https://ravencibuilder.com/demo/?enable-zion-builder&utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
 
  ## WORDPRESS PAGE BUILDER FEATURES  ##
 
@@ -128,7 +128,7 @@ Zion Page Builder supports RTL which is vital for languages that are read from r
 * __Separator__ - Highly flexible separator allows to control border size, color, width, alignment, margins above and below, and you even add icons to them.
 
 == WORDPRESS PAGE BUILDER PREMIUM FEATURES ==
-[Zion Builder Pro](https://zionbuilder.io/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description) - Innovative plugin that comes to complete Zion Builder with many awesome features and elements which are meant to help users build their websites in no-time.
+[Zion Builder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description) - Innovative plugin that comes to complete Zion Builder with many awesome features and elements which are meant to help users build their websites in no-time.
 
 = Access to complete style options =
 One of the things users love about Zion Builder Pro is the ability to fine tune almost every CSS property directly from the options panel. Combine this with the ability to change the styling for responsive devices and pseudo selectors so you have complete control over the page design.
@@ -191,14 +191,14 @@ The most wanted and powerful elements are provided in the Zion Builder Pro versi
 * New Pro Templates
 * New Pro Elements
 
-Take total visual control of your layouts and escape from theme limitations with [Zion Builder Pro](https://zionbuilder.io/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
+Take total visual control of your layouts and escape from theme limitations with [Zion Builder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
 
 = BE A CONTRIBUTOR =
 If you want to help, go to our [Zion Builder GitHub Repository](http://github.com/zionbuilder/zionbuilder). From there you can help us by opening new feature requests tickets as well as reporting bugs. Even more, if you're a developer and want to improve or add a new feature to the builder, you can create a pull request.
 
 = DOCUMENTATION AND SUPPORT =
-* For documentation and tutorials visit Zion Builder's [Help Center](https://zionbuilder.io/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
-* For more information about features check out our website at [Zion Builder website builder](https://zionbuilder.io/features/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+* For documentation and tutorials visit Zion Builder's [Help Center](https://ravencibuilder.com/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+* For more information about features check out our website at [Zion Builder website builder](https://ravencibuilder.com/features/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
 
 = Need more help? =
 We are here to help you anytime - Just join the [Zion Builder Community](https://www.facebook.com/groups/zionbuildercommunity).
@@ -226,9 +226,9 @@ The answer is definitely yes. If you run any kind of commercial business based o
 
 == Changelog ==
 = 3.6.5 2023-14-03 =
-Added: Ability to set mega menu icon color ( https://feedback.zionbuilder.io/roadmap/option-to-change-mega-menu-icon-color )
-Added: Link Element. This element allows you to easily insert links on the page. ( https://feedback.zionbuilder.io/roadmap/add-dynamic-data-to-the-field-of-link-title )
-Added: Ability to style the last menu item directly from the options ( https://feedback.zionbuilder.io/roadmap/style-last-menu-item-of-menu-in-styling-tab-useful-with-example-image )
+Added: Ability to set mega menu icon color ( https://ravencibuilder.com/feedback/roadmap/option-to-change-mega-menu-icon-color )
+Added: Link Element. This element allows you to easily insert links on the page. ( https://ravencibuilder.com/feedback/roadmap/add-dynamic-data-to-the-field-of-link-title )
+Added: Ability to style the last menu item directly from the options ( https://ravencibuilder.com/feedback/roadmap/style-last-menu-item-of-menu-in-styling-tab-useful-with-example-image )
 Improved: Improved Link option type UI/UX
 Fixed: Advanced custom fields dynamic data not working in certain conditions
 Fixed: JavaScript console warning when adding the image slider element to the page
@@ -236,22 +236,22 @@ Fixed: JavaScript console warning when adding the image slider element to the pa
 = 3.6.4 2023-17-02 =
 Added: Additional helpful tooltip for various option types
 Improved: Prevent page jump caused by the element add icon
-Improved: The accordion element can be closed by clicking on the item icon ( https://feedback.zionbuilder.io/roadmap/alt-attributes-anchor-text-for-icons )
+Improved: The accordion element can be closed by clicking on the item icon ( https://ravencibuilder.com/feedback/roadmap/alt-attributes-anchor-text-for-icons )
 Fixed: WP widget options form not displaying properly on dark mode
 Fixed: WP widget form not displaying the correct form when editing different WordPress widget
-Fixed: The element menu automatically hides in certain conditions ( https://feedback.zionbuilder.io/roadmap/context-menu-doesnt-open-with-right-click-sometimes-under-some-conditions )
+Fixed: The element menu automatically hides in certain conditions ( https://ravencibuilder.com/feedback/roadmap/context-menu-doesnt-open-with-right-click-sometimes-under-some-conditions )
 Fixed: Improper placement of select dropdowns
 
 = 3.6.3 2023-13-02 =
 Added: Loop option for video element and video background
 Added: Option to enable video lazy loading ( can be found in Zion Builder options > Performance )
-Added: Option to add "playsinline" for video element and video background ( https://feedback.zionbuilder.io/b/5v8jzj0g/feature-requests/mobile-video-not-fullscreen )
+Added: Option to add "playsinline" for video element and video background ( https://ravencibuilder.com/feedback/b/5v8jzj0g/feature-requests/mobile-video-not-fullscreen )
 Improved: Removed video preview from the video option. The video preview took a lot of space and the preview can be viewed directly on the page
-Improved: Updated Google fonts list ( https://feedback.zionbuilder.io/b/5v8jzj0g/feature-requests/add-more-google-fonts )
+Improved: Updated Google fonts list ( https://ravencibuilder.com/feedback/b/5v8jzj0g/feature-requests/add-more-google-fonts )
 Improved: Allow YouTube URLs that contain playlist param. If this is present and the "loop" option is set to "no", the videos will autoplay to the next item in the playlist
-Improved: Show collapse button for accordions and tabs in tree view ( https://feedback.zionbuilder.io/roadmap/bug-for-some-elements-the-expandcollapse-icon-is-not-displayed-in-the-tree-view )
+Improved: Show collapse button for accordions and tabs in tree view ( https://ravencibuilder.com/feedback/roadmap/bug-for-some-elements-the-expandcollapse-icon-is-not-displayed-in-the-tree-view )
 Improved: Combined video background and video scripts into one single script
-Improved: Removed Zion Builder templates from XML sitemap ( https://feedback.zionbuilder.io/roadmap/remove-zions-templates-from-wp-default-sitemap )
+Improved: Removed Zion Builder templates from XML sitemap ( https://ravencibuilder.com/feedback/roadmap/remove-zions-templates-from-wp-default-sitemap )
 Fixed: Video background not displaying the video inside the editor
 Fixed: Select option dropdown exits the browser window in certain conditions
 Fixed: WordPress media modal not showing results the first time it is opened from the video element
@@ -261,13 +261,13 @@ Fixed: background image drag icon always appears in the background image option 
 Fixed: CSS class changes not applied in the editor in certain conditions
 Fixed: Console error showing in editor mode when using dynamic data for a CSS class
 Fixed: Console error showing when opening the page options inside the editor in certain conditions
-Fixed: Discard changes icon not showing properly in certain conditions ( https://feedback.zionbuilder.io/roadmap/child-green-indicator-doesnt-clear-automatically )
+Fixed: Discard changes icon not showing properly in certain conditions ( https://ravencibuilder.com/feedback/roadmap/child-green-indicator-doesnt-clear-automatically )
 Fixed: PHP warning showing in error log in certain conditions
 Fixed: Custom unit not working properly for margin and padding option
 Fixed: gradient color disappears when dragging the color from the gradient background
 
 = 3.6.2 2023-30-01 =
-Improved: Lowered z-index for video overlay from 999 to 9 ( https://feedback.zionbuilder.io/b/5v8jzj0g/feature-requests/z-index-of-embedded-videos-overlay-image-is-too-high )
+Improved: Lowered z-index for video overlay from 999 to 9 ( https://ravencibuilder.com/feedback/b/5v8jzj0g/feature-requests/z-index-of-embedded-videos-overlay-image-is-too-high )
 Improved: Added backward compatibility for zb.hooks API
 Fixed: Color presets cannot be selected
 Fixed: Compatibility with Rank Math plugin
@@ -330,7 +330,7 @@ Fixed: Preview window not filling the entire screen when activating preview mode
 
 = 3.4.2 2022-21-10 =
 IMPROVEMENT: Added backwards compatibility for 3rd party plugins that use jQuery ( Zion Builder alone doesn't use jQuery )
-IMPROVEMENT: Updated links that pointed to Github issues to feedback.zionbuilder.io
+IMPROVEMENT: Updated links that pointed to Github issues to ravencibuilder.com/feedback
 FIXED: Edit with Zion Builder button doesn't work in certain conditions
 FIXED: Page assets not generating properly in certain conditions
 FIXED: Regenerate assets doesn't regenerate assets for all posts in certain conditions

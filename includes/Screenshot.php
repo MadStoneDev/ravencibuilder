@@ -30,7 +30,7 @@ class Screenshot {
 	}
 
 	public function print_proxy_asset( $asset ) {
-		$response = wp_remote_get( utf8_decode( $asset ) );
+		$response = wp_remote_get( mb_convert_encoding( $asset, 'ISO-8859-1', 'UTF-8' ) );
 
 		if ( is_wp_error( $response ) ) {
 			return '';

@@ -6,12 +6,12 @@
 		<h1 class="znpb-get-pro__title">{{ i18n.__('Upgrade to PRO now!', 'zionbuilder') }}</h1>
 		<p class="znpb-get-pro__description">{{ message }}</p>
 		<div class="znpb-get-pro__more">
-			<a href="https://zionbuilder.io/documentation/pro-version/" target="_blank">
+			<a href="https://ravencibuilder.com/features/" target="_blank">
 				{{ i18n.__('Click here to learn more about PRO.', 'zionbuilder') }}
 			</a>
 		</div>
 		<a
-			href="https://zionbuilder.io/"
+			href="https://ravencibuilder.com/pricing/"
 			target="_blank"
 			class="znpb-button znpb-get-pro__cta znpb-button--secondary znpb-option__upgrade-to-pro-button"
 		>

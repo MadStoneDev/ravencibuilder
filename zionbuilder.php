@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Zion Builder
-Plugin URI: https://zionbuilder.io/?utm_campaign=plugin-uri&utm_medium=wp-dashboard-plugins
-Description: The page builder you always wanted. Create any design you want using live editor.
+Plugin Name: RavenciBuilder
+Plugin URI: https://ravencibuilder.com
+Description: A powerful page builder for WordPress. Create any design you want using the live editor. Originally based on ZionBuilder.
 Version: 3.6.5
-Author: zionbuilder.io
-Author URI: https://zionbuilder.io/?utm_campaign=plugin-uri&utm_medium=wp-dashboard-plugins
+Author: RavenciBuilder
+Author URI: https://ravencibuilder.com
 Text Domain: zionbuilder
 Domain Path: /languages
 License: GPL3

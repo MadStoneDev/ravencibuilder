@@ -98,9 +98,9 @@ class ReplaceUrl extends RestApiController {
 			return new \WP_Error( 'replace_url_failed', esc_html__( 'Provided URL\'s are not valid.', 'zionbuilder' ) );
 		}
 
-		// Secure sql input
-		$find    = str_replace( '/', '\\\/', trim( $find ) );
-		$replace = str_replace( '/', '\\\/', trim( $replace ) );
+		// Escape forward slashes for JSON-encoded data stored in meta values
+		$find    = str_replace( '/', '\\/', trim( $find ) );
+		$replace = str_replace( '/', '\\/', trim( $replace ) );
 
 		$meta_fields_to_replace = apply_filters(
 			'zionbuilder/options_utils/replace_urls_meta_fields',
@@ -149,13 +149,15 @@ class ReplaceUrl extends RestApiController {
 	public function replace_urls( $find, $replace, $meta_key ) {
 		global $wpdb;
 
-		// @codingStandardsIgnoreStart `$wpdb->prepare` will remove the backslashes when it's used
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery
 		$rows_affected = $wpdb->query(
-			"UPDATE {$wpdb->postmeta} " .
-			"SET `meta_value` = REPLACE(`meta_value`, '" . $find . "', '" . $replace . "') " .
-			"WHERE `meta_key` = '" . $meta_key . "'"
+			$wpdb->prepare(
+				"UPDATE {$wpdb->postmeta} SET `meta_value` = REPLACE(`meta_value`, %s, %s) WHERE `meta_key` = %s",
+				$find,
+				$replace,
+				$meta_key
+			)
 		);
-		// @codingStandardsIgnoreEnd
 
 		if ( false === $rows_affected ) {
 			return new \WP_Error( 'replace_url_failed', esc_html__( 'An error has occurred while updating the urls.', 'zionbuilder' ) );
@@ -175,13 +177,15 @@ class ReplaceUrl extends RestApiController {
 	public function replace_urls_from_options( $find, $replace, $option_name ) {
 		global $wpdb;
 
-		// @codingStandardsIgnoreStart `$wpdb->prepare` will remove the backslashes when it's used
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery
 		$rows_affected = $wpdb->query(
-			"UPDATE {$wpdb->options} " .
-			"SET `option_value` = REPLACE(`option_value`, '" . $find . "', '" . $replace . "') " .
-			"WHERE `option_name` = '" . $option_name . "';"
+			$wpdb->prepare(
+				"UPDATE {$wpdb->options} SET `option_value` = REPLACE(`option_value`, %s, %s) WHERE `option_name` = %s",
+				$find,
+				$replace,
+				$option_name
+			)
 		);
-		// @codingStandardsIgnoreEnd
 
 		if ( false === $rows_affected ) {
 			return new \WP_Error( 'replace_url_failed', esc_html__( 'An error has occurred while updating the urls from page builder options.', 'zionbuilder' ) );

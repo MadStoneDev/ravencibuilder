@@ -94,9 +94,21 @@ class DownloadArchive extends RestApiController {
 			return new \WP_Error( 'Bad request', esc_html__( 'Invalid nonce or filename', 'zionbuilder' ), [ 'status' => '400' ] );
 		}
 
+		if ( ! wp_verify_nonce( $nonce, 'zionbuilder_download_template' ) ) {
+			return new \WP_Error( 'invalid_nonce', esc_html__( 'Security check failed', 'zionbuilder' ), [ 'status' => 403 ] );
+		}
+
+		// Prevent path traversal — only allow the basename
+		$file_name = basename( sanitize_file_name( $file_name ) );
+
 		$import_export = Plugin::instance()->import_export;
 		$download      = $import_export->download_template( $file_name );
-		$download->add_data( [ 'status' => 500 ] );
+
+		if ( is_wp_error( $download ) ) {
+			$download->add_data( [ 'status' => 500 ] );
+			return $download;
+		}
+
 		return $download;
 	}
 }

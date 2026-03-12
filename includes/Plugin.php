@@ -315,8 +315,22 @@ class Plugin {
 		self::$instance = $this;
 
 		add_action( 'after_setup_theme', [ $this, 'init' ] );
+		add_action( 'admin_init', [ $this, 'init_updater' ] );
 
 		do_action( 'zionbuilder/main' );
+	}
+
+	/**
+	 * Initialize the plugin updater for the free version.
+	 */
+	public function init_updater() {
+		new RavenciPluginUpdater(
+			$this->get_root_path() . 'zionbuilder.php',
+			[
+				'version'     => $this->get_version(),
+				'plugin_slug' => 'ravencibuilder',
+			]
+		);
 	}
 
 

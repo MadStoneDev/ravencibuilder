@@ -17,7 +17,7 @@
 
 			<div>
 				<a
-					href="https://zionbuilder.io/"
+					href="https://ravencibuilder.com/pricing/"
 					target="_blank"
 					class="znpb-button znpb-get-pro__cta znpb-button--secondary znpb-option__upgrade-to-pro-button"
 				>
@@ -48,7 +48,7 @@ withDefaults(
 		info_link?: string;
 	}>(),
 	{
-		info_link: 'https://zionbuilder.io/documentation/pro-version/',
+		info_link: 'https://ravencibuilder.com/pricing/documentation/pro-version/',
 		message_title: '',
 		message_description: '',
 		info_text: '',

@@ -7,7 +7,7 @@ labels: 'type: feature or enhancement'
 <!--
   Please fill out each section below, otherwise, your issue will be closed.
 
-  Before opening a new issue, please search existing issues:  https://feedback.zionbuilder.io
+  Before opening a new issue, please search existing issues:  https://ravencibuilder.com/feedback
 
   ## A note on adding features to Zionbuilder and its official plugins
 

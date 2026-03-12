@@ -83,7 +83,7 @@ const menuItems = computed(() => {
 });
 
 const documentationLink = computed(() => {
-	let helpURL = 'https://zionbuilder.io/help-center/';
+	let helpURL = 'https://ravencibuilder.com/help-center/';
 
 	if (
 		builderOptionsStore.getOptionValue('white_label') !== null &&

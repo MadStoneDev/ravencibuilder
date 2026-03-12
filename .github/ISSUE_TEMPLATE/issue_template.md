@@ -8,15 +8,15 @@ labels: 'type: bug'
   Please fill out each section below, otherwise, your issue will be closed. This info allows Zionbuilder maintainers to diagnose (and fix!) your issue as quickly as possible.
 
   Useful Links:
-  - Documentation: https://zionbuilder.io/help-center/
+  - Documentation: https://ravencibuilder.com/help-center/
 
-  Before opening a new issue, please search existing issues: https://feedback.zionbuilder.io
+  Before opening a new issue, please search existing issues: https://feedback.ravencibuilder.com
 -->
 
 **Describe the bug**
 _Write a explanatory description of the bug._
 
-**Have you tried all the steps at https://zionbuilder.io/documentation/having-problems-using-zion-builder/?**
+**Have you tried all the steps at https://ravencibuilder.com/documentation/having-problems-using-zion-builder/?**
 _Yes/No_
 
 **Steps to reproduce**

@@ -5,7 +5,7 @@ namespace ZionBuilder\Library\Sources;
 use ZionBuilder\Plugin;
 
 class ZionSource extends BaseSource {
-	const SOURCE_URL = 'https://library.zionbuilder.io/wp-json/zionbuilder-library/v2/library';
+	const SOURCE_URL = 'https://YOUR_PROJECT.supabase.co/functions/v1/library';
 
 	/**
 	 * True if you want to use the browser cache to cache the template lis

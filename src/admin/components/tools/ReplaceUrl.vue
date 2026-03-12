@@ -55,7 +55,7 @@ const disabled = computed(() => {
 
 const panelInfo = i18n.__(
 	`<strong>Important:</strong> It is strongly recommended that you
-					<a href="https://zionbuilder.io/documentation/replace-url-s/" target="_blank">backup your database</a> before using Replace
+					<a href="https://ravencibuilder.com/docs/replace-url/" target="_blank">backup your database</a> before using Replace
 					URL.`,
 	'zionbuilder',
 );

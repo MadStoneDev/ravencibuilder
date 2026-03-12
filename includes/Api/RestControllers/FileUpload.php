@@ -113,7 +113,8 @@ class FileUpload extends RestApiController {
 		$allowed_mimes['otf']   = 'application/x-font-otf';
 		$allowed_mimes['woff']  = 'application/x-font-woff';
 		$allowed_mimes['ttf']   = 'application/x-font-ttf';
-		$allowed_mimes['svg']   = 'image/svg+xml';
+		// SVG removed — unsanitized SVGs can contain XSS payloads
+		// $allowed_mimes['svg'] = 'image/svg+xml';
 		$allowed_mimes['eot']   = 'application/vnd.ms-fontobject';
 		$allowed_mimes['woff2'] = 'font/woff2';
 
@@ -125,10 +126,16 @@ class FileUpload extends RestApiController {
 		}
 
 		if ( ! file_exists( $upload_location ) ) {
-			FileSystem::get_file_system()->mkdir( $upload_location, 0777, true );
+			FileSystem::get_file_system()->mkdir( $upload_location, 0755, true );
 		}
 
-		move_uploaded_file( $file_path, $uploaded_file_location );
+		$newfilename            = sanitize_file_name( $newfilename );
+		$uploaded_file_location = sprintf( '%s/%s', $upload_location, $newfilename );
+		$uploaded_file_url      = sprintf( '%s/%s', $upload_location_url, $newfilename );
+
+		if ( ! move_uploaded_file( $file_path, $uploaded_file_location ) ) {
+			return new \WP_Error( 'upload_failed', __( 'Failed to move uploaded file', 'zionbuilder' ) );
+		}
 
 		return rest_ensure_response(
 			[

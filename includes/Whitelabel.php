@@ -22,7 +22,7 @@ class Whitelabel {
 	 *
 	 * @var string
 	 */
-	public $plugin_title = 'Zion Builder';
+	public $plugin_title = 'RavenciBuilder';
 
 	/**
 	 * Holds a reference to the plugin slug. This is used for admin urls
@@ -66,10 +66,10 @@ class Whitelabel {
 		$white_label_data            = apply_filters(
 			'zionbuilder/whitelabel/data',
 			[
-				'plugin_title'          => 'Zion Builder',
+				'plugin_title'          => 'RavenciBuilder',
 				'plugin_slug'           => 'zionbuilder',
 				'plugin_logo'           => Utils::get_logo_url(),
-				'plugin_help_url'       => 'https://zionbuilder.io/help-center/',
+				'plugin_help_url'       => 'https://ravencibuilder.com/help-center/',
 				'plugin_loader_logo'    => Utils::get_loader_url(),
 				'getting_started_video' => 'https://www.youtube.com/embed/rQ_2lUyhCAY',
 			]
