@@ -1,1 +1,20 @@
+# Normalize line endings for all text files to LF in the repository.
+# Prevents CRLF/LF churn from Windows editors (this repo lives on a Windows mount).
 * text=auto eol=lf
+
+# Explicitly binary — never touch line endings or attempt text diffs.
+*.zip   binary
+*.gz    binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.mo    binary
+*.pdf   binary
