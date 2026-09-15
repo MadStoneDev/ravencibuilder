@@ -30,6 +30,23 @@ class Screenshot {
 	}
 
 	public function print_proxy_asset( $asset ) {
+		// Validate URL scheme to prevent file://, gopher://, etc.
+		$scheme = wp_parse_url( $asset, PHP_URL_SCHEME );
+		if ( ! in_array( $scheme, [ 'http', 'https' ], true ) ) {
+			wp_die( esc_html__( 'Invalid URL scheme.', 'zionbuilder' ), 403 );
+		}
+
+		// Block requests to private/internal IP ranges to mitigate SSRF
+		$host = wp_parse_url( $asset, PHP_URL_HOST );
+		if ( empty( $host ) ) {
+			wp_die( esc_html__( 'Invalid proxy URL.', 'zionbuilder' ), 403 );
+		}
+
+		$ip = gethostbyname( $host );
+		if ( $ip !== $host && filter_var( $ip, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE | FILTER_FLAG_NO_LOOPBACK ) === false ) {
+			wp_die( esc_html__( 'Proxy requests to internal addresses are not allowed.', 'zionbuilder' ), 403 );
+		}
+
 		$response = wp_remote_get( mb_convert_encoding( $asset, 'ISO-8859-1', 'UTF-8' ) );
 
 		if ( is_wp_error( $response ) ) {
