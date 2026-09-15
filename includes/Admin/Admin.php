@@ -184,7 +184,7 @@ class Admin {
 						'post_id'           => $post->ID,
 						'is_editor_enabled' => $post_instance && $post_instance->is_built_with_zion(),
 						'l10n'              => [
-							'wp_heartbeat_disabled' => esc_html__( 'WordPress Heartbeat is disabled. Zion builder requires it in order to function properly', 'zionbuilder' ),
+							'wp_heartbeat_disabled' => esc_html__( 'WordPress Heartbeat is disabled. RavenciBuilder requires it in order to function properly', 'zionbuilder' ),
 						],
 					],
 				]

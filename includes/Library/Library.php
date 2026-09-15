@@ -53,7 +53,7 @@ class Library {
 			new ZionSource(
 				[
 					'id'   => 'zion_builder',
-					'name' => esc_html__( 'Zion Builder library', 'zionbuilder' ),
+					'name' => esc_html__( 'RavenciBuilder library', 'zionbuilder' ),
 				]
 			)
 		);

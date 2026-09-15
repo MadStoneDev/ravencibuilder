@@ -1,6 +1,6 @@
 === RavenciBuilder – WordPress Page Builder ===
 Contributors: ravencibuilder
-Tags: page builder, editor, visual editor, drag and drop, website builder, front-end builder
+Tags: page builder, editor, visual editor, drag and drop, website builder
 Requires at least: 5.0.0
 Tested up to: 6.7
 Stable tag: 3.6.5
@@ -14,9 +14,9 @@ A powerful WordPress page builder with an intuitive live editor and powerful des
 
 https://www.youtube.com/watch?v=oVsxuHh-DzU
 
-Built and designed by [Hogash team](https://hogash.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), the creator of the famous WordPress theme [Kallyas](https://kallyas.net/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description), this plugin is the fastest page builder on the market. The user-friendly tools included in Zion Page Builder make the building process for WordPress websites easier than ever before. Read more on [Zion Builder](https://ravencibuilder.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+RavenciBuilder is a fast, intuitive page builder for WordPress. The user-friendly tools included make the building process for WordPress websites easier than ever before. Read more on [RavenciBuilder](https://ravencibuilder.com/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description). Built on the open-source [ZionBuilder](https://zionbuilder.io/) engine (GPLv3) by the Hogash team, creators of the [Kallyas](https://kallyas.net/) theme.
 
-Zion Builder in action - [TRY IT NOW](https://ravencibuilder.com/demo/?enable-zion-builder&utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
+RavenciBuilder in action - [TRY IT NOW](https://ravencibuilder.com/demo/?enable-zion-builder&utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
 
  ## WORDPRESS PAGE BUILDER FEATURES  ##
 
@@ -51,7 +51,7 @@ Saving system, history of your actions, post revisions, users permissions, or ea
 The following extra design features come built-in the Panel Element Options: Blending Background, ColorPicker, Pseudo – selectors, Element’s motion control, Flexbox control, Powerful background image, Filters, Borders, Shadows, Typography, Transform, Transitions.
 
 = Library system =
-It contains the actions needed to import and export library parts and access to Zion library that provides hundreds of pre-made templates.
+It contains the actions needed to import and export library parts and access to RavenciBuilder library that provides hundreds of pre-made templates.
 
 = Dragging size and spacing =
 Live edit the margins, padding and size by dragging the element outline toolbar.
@@ -63,7 +63,7 @@ Repositioning the elements is done with simple dragging and dropping anywhere in
 The most used and intuitive keys were implemented to ensure the accessibility of user actions.
 
 = Discard changes =
-A unique feature of Zion Builder is the "display" of a green dot showing the options that have changed. No more looking around to check each option to see if it was changed.
+A unique feature of RavenciBuilder is the "display" of a green dot showing the options that have changed. No more looking around to check each option to see if it was changed.
 
 = Top right toolbar shortcuts =
 This toolbar appears only when hovering an element and gives the possibility to access the options panel, to save, hide, duplicate, or delete the element.
@@ -96,7 +96,7 @@ Built with PHP and Vue JS, the builder can be easily extended by adding new elem
 Locating the correct element to interact with can be difficult when developing a complex web page. So you can rename your elements to get easily identified. On top of this, each element can be identified by its unique icon.
 
 = RTL support =
-Zion Page Builder supports RTL which is vital for languages that are read from right-to-left (rather than left-to-right).
+RavenciBuilder supports RTL which is vital for languages that are read from right-to-left (rather than left-to-right).
 
 == WORDPRESS PAGE BUILDER 25+ FREE ELEMENTS ==
 * __Section__ - Has plenty of options to customize your layout.
@@ -128,22 +128,22 @@ Zion Page Builder supports RTL which is vital for languages that are read from r
 * __Separator__ - Highly flexible separator allows to control border size, color, width, alignment, margins above and below, and you even add icons to them.
 
 == WORDPRESS PAGE BUILDER PREMIUM FEATURES ==
-[Zion Builder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description) - Innovative plugin that comes to complete Zion Builder with many awesome features and elements which are meant to help users build their websites in no-time.
+[RavenciBuilder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description) - Innovative plugin that comes to complete RavenciBuilder with many awesome features and elements which are meant to help users build their websites in no-time.
 
 = Access to complete style options =
-One of the things users love about Zion Builder Pro is the ability to fine tune almost every CSS property directly from the options panel. Combine this with the ability to change the styling for responsive devices and pseudo selectors so you have complete control over the page design.
+One of the things users love about RavenciBuilder Pro is the ability to fine tune almost every CSS property directly from the options panel. Combine this with the ability to change the styling for responsive devices and pseudo selectors so you have complete control over the page design.
 
 = Ability to upload custom fonts =
-Zion Builder Pro makes it really easy to add custom fonts to your website. After uploading your font files to Zion Builder, your newly added fonts will be available in the editor at typography settings.
+RavenciBuilder Pro makes it really easy to add custom fonts to your website. After uploading your font files to RavenciBuilder, your newly added fonts will be available in the editor at typography settings.
 
 = Ability to use Adobe fonts =
 Integration with Adobe Fonts was thought even from the beginning because this is a feature designers need.
 
 = Ability to upload custom icons =
-Importing custom icon packs created with Zion Builder Pro has never been easier. Any new icon pack added will be available in Zion Builder icon library.
+Importing custom icon packs created with RavenciBuilder Pro has never been easier. Any new icon pack added will be available in RavenciBuilder icon library.
 
 = Role Manager =
-Managing user's permissions is done from Zion Builder's dashboard. You can have full control of what users can edit.
+Managing user's permissions is done from RavenciBuilder's dashboard. You can have full control of what users can edit.
 
 = Custom CSS =
 With custom CSS you can fine-tune the styling. Add custom CSS to elements and/or pages.
@@ -170,7 +170,7 @@ Replace static content from elements that are managed in WordPress with dynamic 
 Add extra spice to the design and users will love them.
 
 = Additional PRO elements =
-The most wanted and powerful elements are provided in the Zion Builder Pro version. Currently the elements from Pro version are:
+The most wanted and powerful elements are provided in the RavenciBuilder Pro version. Currently the elements from Pro version are:
 * __Countdown__
 * __Social Share__
 * __Search__
@@ -191,38 +191,35 @@ The most wanted and powerful elements are provided in the Zion Builder Pro versi
 * New Pro Templates
 * New Pro Elements
 
-Take total visual control of your layouts and escape from theme limitations with [Zion Builder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
+Take total visual control of your layouts and escape from theme limitations with [RavenciBuilder Pro](https://ravencibuilder.com/pricing/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description)
 
-= BE A CONTRIBUTOR =
-If you want to help, go to our [Zion Builder GitHub Repository](http://github.com/zionbuilder/zionbuilder). From there you can help us by opening new feature requests tickets as well as reporting bugs. Even more, if you're a developer and want to improve or add a new feature to the builder, you can create a pull request.
+= FEEDBACK & FEATURE REQUESTS =
+Found a bug or have an idea? Let us know through the [RavenciBuilder Help Center](https://ravencibuilder.com/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description). We read every request.
 
 = DOCUMENTATION AND SUPPORT =
-* For documentation and tutorials visit Zion Builder's [Help Center](https://ravencibuilder.com/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
-* For more information about features check out our website at [Zion Builder website builder](https://ravencibuilder.com/features/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+* For documentation and tutorials visit RavenciBuilder's [Help Center](https://ravencibuilder.com/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
+* For more information about features check out our website at [RavenciBuilder website builder](https://ravencibuilder.com/features/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
 
 = Need more help? =
-We are here to help you anytime - Just join the [Zion Builder Community](https://www.facebook.com/groups/zionbuildercommunity).
+We are here to help you anytime - visit the [RavenciBuilder Help Center](https://ravencibuilder.com/help-center/?utm_source=wp-plugins&utm_medium=link&utm_campaign=description).
 
 = Connect with us =
-* Follow us on [Facebook](https://www.facebook.com/zionpagebuilder)
-* Follow us on [Instagram](https://www.instagram.com/zionbuilder/)
-* Follow us on [Twitter](https://twitter.com/zionpagebuilder)
-* Subscribe to our [YouTube](https://www.youtube.com/channel/UCfjUWpdwjBnOuMSvL7u6yXg) channel
+* Visit us at [ravencibuilder.com](https://ravencibuilder.com/)
 
 == Frequently Asked Questions ==
 
-= What is Zion Page Builder? =
+= What is RavenciBuilder? =
 
-Zion Builder is a front end visual page builder plugin for WordPress. Zion Page Builder lets you create original-looking posts and pages, compared with the post/page templates that come with the standard WordPress theme. It doesn’t require any HTML/CSS/PHP/coding skills. Zion Page Builder gives you full control over what your page looks like on desktop, tablet, and mobile.
+RavenciBuilder is a front end visual page builder plugin for WordPress. RavenciBuilder lets you create original-looking posts and pages, compared with the post/page templates that come with the standard WordPress theme. It doesn’t require any HTML/CSS/PHP/coding skills. RavenciBuilder gives you full control over what your page looks like on desktop, tablet, and mobile.
 
-= Can I edit posts or other custom post types with Zion Page Builder? =
-Yes, you can edit posts, pages, and custom post types with Zion Builder by activating them from the Admin panel.
+= Can I edit posts or other custom post types with RavenciBuilder? =
+Yes, you can edit posts, pages, and custom post types with RavenciBuilder by activating them from the Admin panel.
 
-= Zion Builder compatibility with other themes and plugins =
-Zion Builder is compatible with most themes that are well constructed according to WordPress guidelines. Zion Builder works with almost every plugin, and mostly with the most popular plugins
+= RavenciBuilder compatibility with other themes and plugins =
+RavenciBuilder is compatible with most themes that are well constructed according to WordPress guidelines. RavenciBuilder works with almost every plugin, and mostly with the most popular plugins
 
-= Can I integrate Zion Page Builder for my commercial theme? =
-The answer is definitely yes. If you run any kind of commercial business based on a WordPress theme and you wish to add interactivity in your pages, then Zion Builder can serve you the best.
+= Can I integrate RavenciBuilder for my commercial theme? =
+The answer is definitely yes. If you run any kind of commercial business based on a WordPress theme and you wish to add interactivity in your pages, then RavenciBuilder can serve you the best.
 
 == Changelog ==
 = 3.6.5 2023-14-03 =
@@ -244,14 +241,14 @@ Fixed: Improper placement of select dropdowns
 
 = 3.6.3 2023-13-02 =
 Added: Loop option for video element and video background
-Added: Option to enable video lazy loading ( can be found in Zion Builder options > Performance )
+Added: Option to enable video lazy loading ( can be found in RavenciBuilder options > Performance )
 Added: Option to add "playsinline" for video element and video background ( https://ravencibuilder.com/feedback/b/5v8jzj0g/feature-requests/mobile-video-not-fullscreen )
 Improved: Removed video preview from the video option. The video preview took a lot of space and the preview can be viewed directly on the page
 Improved: Updated Google fonts list ( https://ravencibuilder.com/feedback/b/5v8jzj0g/feature-requests/add-more-google-fonts )
 Improved: Allow YouTube URLs that contain playlist param. If this is present and the "loop" option is set to "no", the videos will autoplay to the next item in the playlist
 Improved: Show collapse button for accordions and tabs in tree view ( https://ravencibuilder.com/feedback/roadmap/bug-for-some-elements-the-expandcollapse-icon-is-not-displayed-in-the-tree-view )
 Improved: Combined video background and video scripts into one single script
-Improved: Removed Zion Builder templates from XML sitemap ( https://ravencibuilder.com/feedback/roadmap/remove-zions-templates-from-wp-default-sitemap )
+Improved: Removed RavenciBuilder templates from XML sitemap ( https://ravencibuilder.com/feedback/roadmap/remove-zions-templates-from-wp-default-sitemap )
 Fixed: Video background not displaying the video inside the editor
 Fixed: Select option dropdown exits the browser window in certain conditions
 Fixed: WordPress media modal not showing results the first time it is opened from the video element
@@ -282,9 +279,9 @@ Improved: Number unit option type
 Improved: Margin/padding option type
 Improved: Press the CTRL key ( command on Mac ) to change the opposite value of the margin/padding option
 Improved: Preserve unit for number input options when changing responsive device
-Improved: Zion builder library open speed
+Improved: RavenciBuilder library open speed
 Improved: Remove custom attributes options when editing a global CSS class
-Improved: Zion Builder library display speed
+Improved: RavenciBuilder library display speed
 Improved: Display of the system info admin page
 Improved: Replaced save page notification with a small loader icon
 Improved: Removed autosave notification when opening a page
@@ -329,9 +326,9 @@ Fixed: Preview window not filling the entire screen when activating preview mode
 [DEV] Added: Ability to set body classes when adding an element to the page inside the editor
 
 = 3.4.2 2022-21-10 =
-IMPROVEMENT: Added backwards compatibility for 3rd party plugins that use jQuery ( Zion Builder alone doesn't use jQuery )
+IMPROVEMENT: Added backwards compatibility for 3rd party plugins that use jQuery ( RavenciBuilder alone doesn't use jQuery )
 IMPROVEMENT: Updated links that pointed to Github issues to ravencibuilder.com/feedback
-FIXED: Edit with Zion Builder button doesn't work in certain conditions
+FIXED: Edit with RavenciBuilder button doesn't work in certain conditions
 FIXED: Page assets not generating properly in certain conditions
 FIXED: Regenerate assets doesn't regenerate assets for all posts in certain conditions
 FIXED: CSS background image not generating properly when using dynamic data
@@ -367,7 +364,7 @@ Improvement: Don't show documentation button in admin area if user sets an empty
 Improvement: Don't show image resize fields for SVG images ( SVG images cannot be resized )
 Improvement: Allow special characters in custom attributes names
 Improvement: Don't refresh elements if only options that style it are changed
-Improvement: Performance for rendered pages made with Zion Builder
+Improvement: Performance for rendered pages made with RavenciBuilder
 Fixed: Tree view list panel is not scrollable
 Fixed: Add elements icon opens element options panel on first click
 Fixed: Cannot scroll in element conditions dropdown option
@@ -488,7 +485,7 @@ Added: Ability to set the custom scale for editor preview
 Added: Ability to set editor preview to auto-scale based on available width
 Added: Ability to create templates for all author archives
 Added: Ability to create templates for specific author archives
-Added: Theme builder link to the admin bar. This will appear as a submenu for pages edited with Zion Builder
+Added: Theme builder link to the admin bar. This will appear as a submenu for pages edited with RavenciBuilder
 Improvement: Updated tree view panels design and UX
 Improvement: Color-picker won't close itself if you click outside it while changing the color
 Improvement: Elements are now editable with one click
@@ -511,12 +508,12 @@ Improvement: The previewed page will auto-refresh when saving new changes
 Improvement: Re-ordered main panel menu items
 Improvement: Show menu items without capitalization
 Improvement: Automatically fill padding/margins values when clicking on the link icon
-Improvement: Zion Library UI
+Improvement: RavenciBuilder Library UI
 Improvement: The active library source is preserved after refresh
 Improvement: Show only Library categories that have items in them when searching for an element
 Improvement: Sort library items by date
 Improvement: Keep cursor position when entering values in fields that also accept a unit
-Improvement: Zion Library UI and UX
+Improvement: RavenciBuilder Library UI and UX
 Improvement: The edit element panel will close automatically when deleting all the elements on the page
 Improvement: Close number input popup for Spacing option type when clicking outside of it
 Improvement: Replaced popup for choosing what changes to show with a confirmation message when you try to close the page while still having unsaved changes
@@ -835,7 +832,7 @@ Misc: Updated many components to Vue 3
 * Added WordPress filters for REST controllers
 * Renamed Custom HTML element to Custom Code
 * Improved: Changes green dot now appears for dynamic values
-* Improved Zion Builder library display Improved: The options panel will show the general tab when editing a different element
+* Improved RavenciBuilder library display Improved: The options panel will show the general tab when editing a different element
 * Improved: Removed help tab from builder panel.
 * Improved: Page cache not clearing properly when modifying the page
 * Fixed accordion and tabs elements not working in certain conditions
@@ -849,7 +846,7 @@ Misc: Updated many components to Vue 3
 = 1.1.0- 2020-11-24 =
 * Feature: Add Elements Popup pens automatically when column layouts are inserted
 * Feature: Element options panel: Added ability to click on the element title to select the parent element
-* Feature: Abillity to change Column setting for each viewport for Zion's Gallery Element
+* Feature: Abillity to change Column setting for each viewport for RavenciBuilder's Gallery Element
 * Feature: Make Button Position option changeable per viewport
 * Renamed regenerate css to regenerate css and js
 * Improved history
@@ -883,16 +880,16 @@ Misc: Updated many components to Vue 3
 * Fixed Mozilla bug on input
 * Fixed locked user data
 * Fixed image element margin drag hides the toolbox
-* Fixed Zion Builder not working with Yoast in certain conditions
+* Fixed RavenciBuilder not working with Yoast in certain conditions
 * Fixed PHP Stan erors
 * Fixed CSS classes not cleared when a new css class is added or changed
 * Fixed render "Array" string on elements classes
 * Fixed section masks not working
 * Fixed element with no options shows values as array
 * Fixed CSS not generated when using 0 (zero) without any suffix like 'px' for input values
-* Fixed Absolute Positioning of elements in Zion Builder is not the same as on the front end
-* Fixed CSS not working correctly inside Zion Builder after changing Column ID
-* Fixed Zion Keyboard Shortcuts prohibit from typing capital letters inside the Wordpress media popup screen
+* Fixed Absolute Positioning of elements in RavenciBuilder is not the same as on the front end
+* Fixed CSS not working correctly inside RavenciBuilder after changing Column ID
+* Fixed RavenciBuilder Keyboard Shortcuts prohibit from typing capital letters inside the Wordpress media popup screen
 * Fixed css classes not cleared when a new css class is added or changed
 * Fixed Custom Javascript doesn't get removed in 'Custom Javascript' under 'Page Options' when saving page
 

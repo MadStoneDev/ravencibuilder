@@ -566,7 +566,7 @@ class StyleOptions extends BaseSchema {
 			[
 				'type'                => 'upgrade_to_pro',
 				'message_title'       => esc_html__( 'Want additional display options?', 'zionbuilder' ),
-				'message_description' => esc_html__( 'With ZionBuilder PRO you have access to additional options like display, flex, position, overflow and many more.', 'zionbuilder' ),
+				'message_description' => esc_html__( 'With RavenciBuilder PRO you have access to additional options like display, flex, position, overflow and many more.', 'zionbuilder' ),
 				'info_text'           => esc_html__( 'Click here to learn more about PRO.', 'zionbuilder' ),
 			]
 		);
@@ -618,7 +618,7 @@ class StyleOptions extends BaseSchema {
 			[
 				'type'                => 'upgrade_to_pro',
 				'message_title'       => esc_html__( 'Meet Transform', 'zionbuilder' ),
-				'message_description' => esc_html__( 'With Zion Builder PRO you have access to transform options such as translate, scale, rotate, skew and perspective.', 'zionbuilder' ),
+				'message_description' => esc_html__( 'With RavenciBuilder PRO you have access to transform options such as translate, scale, rotate, skew and perspective.', 'zionbuilder' ),
 				'info_text'           => esc_html__( 'Click here to learn more about PRO.', 'zionbuilder' ),
 			]
 		);

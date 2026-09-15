@@ -57,8 +57,6 @@ function getFormatterArguments() {
 function toggleFormatter(event: MouseEvent) {
 	event.preventDefault();
 	// Remove Style if this is already active
-	console.log(editor.editor.formatter.match(...getFormatterArguments()));
-	console.log(editor.editor.formatter.canApply(...getFormatterArguments()));
 	editor.editor.formatter.toggle(...getFormatterArguments());
 }
 

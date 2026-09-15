@@ -229,7 +229,7 @@ class Templates {
 	 */
 	private function register_post_type() {
 		$labels = [
-			'name'               => _x( 'Zion Templates', 'Zion Template Library', 'zionbuilder' ),
+			'name'               => _x( 'RavenciBuilder Templates', 'Zion Template Library', 'zionbuilder' ),
 			'singular_name'      => _x( 'Template', 'Zion Template Library', 'zionbuilder' ),
 			'add_new'            => _x( 'Add New', 'Zion Template Library', 'zionbuilder' ),
 			'add_new_item'       => _x( 'Add New Template', 'Zion Template Library', 'zionbuilder' ),
@@ -240,7 +240,7 @@ class Templates {
 			'search_items'       => _x( 'Search Template', 'Zion Template Library', 'zionbuilder' ),
 			'not_found'          => _x( 'No Templates found', 'Zion Template Library', 'zionbuilder' ),
 			'not_found_in_trash' => _x( 'No Templates found in Trash', 'Zion Template Library', 'zionbuilder' ),
-			'menu_name'          => _x( 'Zion Templates', 'Zion Template Library', 'zionbuilder' ),
+			'menu_name'          => _x( 'RavenciBuilder Templates', 'Zion Template Library', 'zionbuilder' ),
 		];
 
 		$args = [

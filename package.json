@@ -4,7 +4,7 @@
     "name": "RavenciBuilder",
     "url": "https://ravencibuilder.com"
   },
-  "version": "2.4.1",
+  "version": "3.6.5",
   "private": true,
   "scripts": {
     "translate": "composer update && composer run-script makepot",

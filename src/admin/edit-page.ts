@@ -111,7 +111,7 @@ class EditPage {
 
 			// Set WP Title and trigger save detection
 			if (!this.$postTitle.val()) {
-				this.$postTitle.val(`ZionBuilder #${this.postId}`).trigger('input');
+				this.$postTitle.val(`RavenciBuilder #${this.postId}`).trigger('input');
 			}
 
 			if (wp.autosave) {

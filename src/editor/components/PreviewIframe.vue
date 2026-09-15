@@ -131,7 +131,6 @@ export default {
 			() => UIStore.isPreviewMode,
 			newValue => {
 				if (newValue && activeResponsiveDeviceInfo.value.id === 'default') {
-					console.log('new Value');
 					nextTick(() => {
 						iframeWidth.value = null;
 					});

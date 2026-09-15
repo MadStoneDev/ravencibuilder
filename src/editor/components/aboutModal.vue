@@ -5,7 +5,7 @@
 				class="znpb-about-modal__description"
 				v-html="
 					i18n.__(
-						'Producing <b>smashing design</b> is now possible with Zion Builder. <br/>Complex elements, library system, responsive building design, multilingual adaptability, speed and performance, control not only over the actions but also over the whole website, and powerful blog options are barely few of the features for this <b> blue-chip </b> plugin. <br/><br/>Choose the version that fits your needs, as Zion Builder offers you the possibility to <b> build a website in no-time </b>even if just the free version is active.',
+						'Producing <b>smashing design</b> is now possible with RavenciBuilder. <br/>Complex elements, library system, responsive building design, multilingual adaptability, speed and performance, control not only over the actions but also over the whole website, and powerful blog options are barely few of the features for this <b> blue-chip </b> plugin. <br/><br/>Choose the version that fits your needs, as RavenciBuilder offers you the possibility to <b> build a website in no-time </b>even if just the free version is active.',
 						'zionbuilder',
 					)
 				"

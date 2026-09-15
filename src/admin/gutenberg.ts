@@ -95,7 +95,7 @@ function initGutenberg(args: { post_id: number; is_editor_enabled: boolean; l10n
 
 			if (!pageTitle || pageTitle.length === 0) {
 				wp.data.dispatch('core/editor').editPost({
-					title: `ZionBuilder #${postId}`,
+					title: `RavenciBuilder #${postId}`,
 				});
 			}
 

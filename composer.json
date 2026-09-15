@@ -1,13 +1,13 @@
 {
-  "name": "zionbuilder/zionbuilder",
+  "name": "ravencibuilder/ravencibuilder",
   "type": "wordpress-plugin",
-  "description": "A visual builder for WordPress",
+  "description": "A powerful visual page builder for WordPress. Based on ZionBuilder (GPLv3).",
   "license": "GPL-3.0-or-later",
   "prefer-stable": true,
   "authors": [
     {
-      "name": "zionbuilder",
-      "email": "hello@zionbuilder.com"
+      "name": "RavenciBuilder",
+      "email": "hello@ravencibuilder.com"
     }
   ],
   "require": {
